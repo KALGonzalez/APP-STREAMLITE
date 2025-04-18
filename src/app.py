@@ -7,7 +7,7 @@ import numpy as np
 import joblib
 
 # Cargar el modelo entrenado
-model = joblib.load('./models/model_reducido.pkl')
+model = joblib.load('/workspaces/APP-STREAMLITE/models/model_30trees_15depth.pkl')
 
 # Título
 st.title("✈️ Predicción del Precio de Vuelo")
